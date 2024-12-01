@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <!-- Fav Icon  -->
-    <link rel="shortcut icon" href="{{asset('images/favicon.png')}}">
+    <link rel="shortcut icon" href="{{asset('images/favicon2.png')}}">
     <!-- Site Title  -->
-    <title>Azalea | ICO Crypto - ICO Landing Page &amp; Multi-Purpose Cryptocurrency HTML Template</title>
+    <title></title>
     <!-- Bundle and Base CSS -->
     <link rel="stylesheet" href="{{asset('assets/css/vendor.bundle.css?ver=210')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style-azalea.css?ver=210')}}">
@@ -27,8 +27,8 @@
                     <!-- Logo @s -->
                     <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
                         <a href="./" class="logo-link">
-                            <img class="logo-dark" src="{{asset('images/logo-s2-white.png')}}" srcset="{{asset('images/logo-s2-white2x.png 2x')}}" alt="logo">
-                            <img class="logo-light" src="{{asset('images/logo-s2-white.png')}}'" srcset="{{asset('images/logo-s2-white2x.png 2x')}}" alt="logo">
+                            <img class="logo-dark" src="{{asset('images/logo-s2-white.png')}}" alt="logo">
+                            <img class="logo-light" src="{{asset('images/logo-s2-white.png')}}'" alt="logo">
                         </a>
                     </div>
                     <!-- Menu Toogle @s -->
@@ -74,7 +74,7 @@
                         <h1 class="title title-xl-2 ttu animated" data-animate="fadeInUp" data-delay="0.7">World First Decentralized Marketplace with blockchain infrastructure</h1>
                         <div class="row justify-content-center pb-3">
                             <div class="col-sm-11 col-xl-11 col-xxl-8">
-                                <p class="lead animated" data-animate="fadeInUp" data-delay="0.8">The first decentralized Marketplace which makes simplifies and standarizes data with blockchain technology. We provides user-friendly, efficient and secure crypto solutions and utilizing blockchain technology. </p>
+                                <p class="lead animated" data-animate="fadeInUp" data-delay="0.8">{{__('В связи с отключением от расчетной системы SWIFT и наложением санкций на ряд стран было принято решение о создании токена BRICS для совершения трансграничных платежей. Старт проекта 4 квартал 2024 года. Ранние инвесторы будут иметь возможность получить токен по выгодной цене.')}} </p>
                             </div>
                         </div>
                         <div class="cpn-action">
