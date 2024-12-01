@@ -9,12 +9,12 @@
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="{{asset('images/favicon2.png')}}">
     <!-- Site Title  -->
-    <title></title>
+    <title>BRICS COIN</title>
     <!-- Bundle and Base CSS -->
-    <link rel="stylesheet" href="{{asset('assets/css/vendor.bundle.css?ver=210')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/style-azalea.css?ver=210')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/vendor.bundle.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/style-azalea.css')}}">
     <!-- Extra CSS -->
-    <link rel="stylesheet" href="{{asset('assets/css/theme.css?ver=210')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/theme.css')}}">
 </head>
 
 <body class="nk-body body-wider bg-theme mode-onepage">
@@ -26,9 +26,9 @@
                 <div class="header-wrap">
                     <!-- Logo @s -->
                     <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
-                        <a href="./" class="logo-link">
-                            <img class="logo-dark" src="{{asset('images/logo-s2-white.png')}}" alt="logo">
-                            <img class="logo-light" src="{{asset('images/logo-s2-white.png')}}'" alt="logo">
+                        <a href="/" class="logo-link">
+                            <img class="logo-dark" src="{{asset('images/logoBF.png')}}" alt="logo">
+                            <img class="logo-light" src="{{asset('images/logoBF.png')}}'" alt="logo">
                         </a>
                     </div>
                     <!-- Menu Toogle @s -->
@@ -43,7 +43,7 @@
                     <div class="header-navbar animated" data-animate="fadeInDown" data-delay=".6">
                         <nav class="header-menu" id="header-menu">
                             <ul class="menu">
-                                <li class="menu-item"><a class="menu-link nav-link" href="#header">Home</a></li>
+                                <li class="menu-item"><a class="menu-link nav-link" href="#header">Начало</a></li>
                                 <li class="menu-item"><a class="menu-link nav-link" href="#about">About</a></li>
                                 <li class="menu-item"><a class="menu-link nav-link" href="#platform">Platform</a></li>
                                 <li class="menu-item"><a class="menu-link nav-link" href="#mvp">MVP</a></li>
@@ -1620,7 +1620,7 @@
     </div>
 </div><!-- .modal @e -->
 <!-- preloader -->
-<div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="images/logo-s2-white.png" alt=""></span></div>
+<div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="{{asset('images/logobf-preload.png')}}" alt=""></span></div>
 <!-- JavaScript -->
 <script src="{{asset('assets/js/jquery.bundle.js?ver=210')}}"></script>
 <script src="{{asset('assets/js/scripts.js?ver=210')}}"></script>
