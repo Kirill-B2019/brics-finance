@@ -56,7 +56,7 @@
                                 <li><a href="#" data-bs-toggle="modal" data-bs-target="#login-popup" class="btn btn-md btn-round btn-thin btn-outline btn-primary btn-auto no-change"><span>{{__('Подключить кошелек (TON)')}}</span></a></li>
                             </ul>
                         </nav>
-                    </div><!-- .header-navbar @e -->
+                    </div>
                 </div>
             </div>
         </div><!-- .header-main @e -->
