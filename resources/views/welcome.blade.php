@@ -50,17 +50,10 @@
                                 <li class="menu-item"><a class="menu-link nav-link" href="#tokensale">Tokens</a></li>
                                 <li class="menu-item"><a class="menu-link nav-link" href="#roadmap">Roadmap</a></li>
                                 <li class="menu-item"><a class="menu-link nav-link" href="#contact">Contact</a></li>
-                                <li class="menu-item has-sub">
-                                    <a class="menu-link nav-link menu-toggle" href="#">More</a>
-                                    <ul class="menu-sub menu-drop">
-                                        <li class="menu-item"><a class="menu-link nav-link" href="#docs">Docs</a></li>
-                                        <li class="menu-item"><a class="menu-link nav-link" href="#team">Team</a></li>
-                                        <li class="menu-item"><a class="menu-link nav-link" href="#faqs">Faqs</a></li>
-                                    </ul>
-                                </li>
+
                             </ul>
                             <ul class="menu-btns">
-                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#login-popup" class="btn btn-md btn-round btn-thin btn-outline btn-primary btn-auto no-change"><span>Login</span></a></li>
+                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#login-popup" class="btn btn-md btn-round btn-thin btn-outline btn-primary btn-auto no-change"><span>{{__('Подключить кошелек (TON)')}}</span></a></li>
                             </ul>
                         </nav>
                     </div><!-- .header-navbar @e -->
